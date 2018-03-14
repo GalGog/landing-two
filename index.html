@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="staly.css">
+</head>
+<body>
+
+<section class="booking">
+    <div class="filtrevid" style="background-image: url(http://maciejcaputa.com/assets/videos/overlay-pattern.png);"></div>
+    <video id="bgvid" autoplay="" loop="" muted="muted">
+        <source src="http://maciejcaputa.com/assets/videos/downtown-los-angeles/downtown-los-angeles.webm" type="video/webm"/>
+        <source src="http://maciejcaputa.com/assets/videos/downtown-los-angeles/downtown-los-angeles.mp4" type="video/mp4"/>
+    </video>
+    <div class="container">
+        <div class="headline"> <span>Find Your Stay in</span><span>Los Angeles.</span></div>
+        <div class="subtitle">It has never been that easy.</div>
+        <div class="form-wrap">
+            <form action="">
+                <div id="location">
+                    <label for="location">DISTRICT</label><br/>
+                    <input type="text" name="location" placeholder="Santa Barbara"/><br/>
+                </div>
+                <div id="guests">
+                    <label for="guests">NUMBER OF GUESTS</label><br/><br/>
+                    <button class="counter-btn" type="button" id="cnt-down">-</button>
+                    <input type="text" id="guestNo" name="guests" value="2"/>
+                    <button class="counter-btn" type="button" id="cnt-up">+</button>
+                </div>
+                <div class="dates">
+                    <div class="arrival">
+                        <label for="arrival">ARRIVAL</label><br/>
+                        <input name="arrival" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="10/06/2016"/>
+                    </div>
+                    <div class="departure">
+                        <label for="arrival">DEPARTURE</label><br/>
+                        <input name="departure" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="05/11/2016"/>
+                    </div>
+                </div>
+            </form>
+            <button class="btn" type="button">Book Now!</button>
+        </div>
+    </div>
+</section>
+<section class="gallery">
+    <figure class="img"><img src="http://a4.pbase.com/u37/alangrant/upload/23854507.webusa09.jpg" alt="pr-sample17"/>
+        <figcaption>
+            <div class="border one">
+                <div></div>
+            </div>
+            <div class="border two">
+                <div></div>
+            </div>
+            <h3>Santa Monica</h3>
+            <p>An iconic destination that draws visitors from around the globe.</p>
+        </figcaption><a href="#"></a>
+    </figure>
+    <figure class="img"><img src="http://hdontap.com/images/uploads/gallery_images/171/venice9.jpeg" alt="pr-sample17"/>
+        <figcaption>
+            <div class="border one">
+                <div></div>
+            </div>
+            <div class="border two">
+                <div></div>
+            </div>
+            <h3>Venice</h3>
+            <p>You haven't seen it all until you've seen Venice!</p>
+        </figcaption><a href="#"></a>
+    </figure>
+    <figure class="img"><img src="https://i.ytimg.com/vi/qgk7UXVSi1Q/maxresdefault.jpg" alt="pr-sample17"/>
+        <figcaption>
+            <div class="border one">
+                <div></div>
+            </div>
+            <div class="border two">
+                <div></div>
+            </div>
+            <h3>Santa Babara</h3>
+            <p>Situated on a south-facing section of coastline, the longest such section on the West Coast of the United States.</p>
+        </figcaption><a href="#"></a>
+    </figure>
+    <figure class="img"><img src="http://www.travelyosemite.com/media/178082/armkyosemitehero_home2.jpg?crop=0,0.028254764103820669,0,0&amp;cropmode=percentage&amp;width=770&amp;height=346&amp;rnd=131011315470000000" alt="pr-sample17"/>
+        <figcaption>
+            <div class="border one">
+                <div></div>
+            </div>
+            <div class="border two">
+                <div></div>
+            </div>
+            <h3>Yosemite</h3>
+            <p>Yosemite is one of the largest and least fragmented habitat blocks in the Sierra Nevada.</p>
+        </figcaption><a href="#"></a>
+    </figure>
+</section>
+<script rel="script" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script rel="script" src="js.js"></script>
+</body>
+</html>
